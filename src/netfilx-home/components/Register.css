@@ -1,0 +1,16 @@
+.registerBox{
+    width:640px !important;
+    margin: auto;
+}
+
+input[type="email"]::placeholder{
+    color:white;
+}
+@media screen and (max-width:660px){
+    .registerBox{
+        width:95% !important;
+    }
+    input[type="email"]{
+        margin-right:5px !important;
+    }
+}

@@ -1,0 +1,19 @@
+.footerBox{
+    display: grid;
+    grid-template-columns:3fr 3fr 3fr 3fr;
+    
+  }
+  .footerBox div{
+    display: flex;
+    flex-direction: column;
+  }
+  .footerBox div a{
+    color:rgb(209, 208, 208);
+    font-size:14px;
+    line-height:35px
+  }
+  @media screen and (max-width:992px){
+    .footerBox{
+      grid-template-columns: 6fr 6fr;
+    }
+  }

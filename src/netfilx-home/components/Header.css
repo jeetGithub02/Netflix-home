@@ -1,0 +1,12 @@
+select{
+    width:100px;
+    outline: none;
+
+}
+select option{
+    background-color: black;
+    color:white;
+}
+.brand-title{
+    font-size:40px;
+}

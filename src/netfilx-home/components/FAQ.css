@@ -1,0 +1,23 @@
+.faq{
+    background-color: black;
+}
+#FAQAcc div{
+    background-color: rgb(27, 27, 27);
+    color:white;
+    font-size: 20px;
+   border-radius:0px;
+    
+}
+#FAQAcc button{
+    background-color: rgb(27, 27, 27);
+    color:white;
+    font-size: 20px;
+    padding:25px;
+   border-radius:0px;
+  
+   
+    
+}
+#FAQAcc .accordion-item{
+    margin-bottom:10px;
+}

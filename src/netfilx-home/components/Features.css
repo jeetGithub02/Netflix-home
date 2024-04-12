@@ -1,0 +1,23 @@
+.features{
+    background-color: black;
+
+}
+.separatorLine{
+    background-color:rgb(27, 27, 27);
+    height:8px;
+}
+.features img{
+    width:100%;
+   aspect-ratio: 4/3;
+}
+.sub-Heading{
+    font-size:23px;
+}
+@media screen and (max-width:992px){
+    .main-heading{
+        font-size:32px;
+    }
+    .sub-Heading{
+        font-size:18px !important;
+    }
+}
