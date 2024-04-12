@@ -37,7 +37,7 @@ function Footer(){
                                 <option value="Hindi">हिन्दी</option>
                                 </select>
                         </span>
-                        <div className="text-white">Netflix India</div>
+                        <div className="text-white">Netflix India : Jitendra Gupta</div>
                     </div>
             </footer>
         )
