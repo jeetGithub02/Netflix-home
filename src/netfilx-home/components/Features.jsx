@@ -1,4 +1,5 @@
 import "./Features.css";
+import { tv1,tv2, mobile, boy } from "../../assets";
 function Features(){
     return(
         <section className="features text-white text-center text-lg-start">
@@ -10,7 +11,7 @@ function Features(){
                         <div className="sub-Heading">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</div>
                     </div>
                     <div className="col-lg">
-                        <img src='images/netflix-tv.png' alt="" />
+                        <img src={tv1} alt="TV" />
                     </div>
               </div>
             </div>
@@ -23,7 +24,7 @@ function Features(){
                         <div className="sub-Heading">Save your favourites easily and always have something to watch.</div>
                     </div>
                     <div className="col-lg order-lg-0">
-                        <img src="images/netflix-mobile.jpg" alt="" />
+                        <img src={mobile} alt="" />
                     </div>
                     
                 </div>
@@ -36,7 +37,7 @@ function Features(){
                         <div className="sub-Heading">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</div>
                     </div>
                     <div className="col-lg">
-                        <img src="images/netflix-tv2.png"  alt="" />
+                        <img src={tv2}  alt="" />
                     </div>
                     
                 </div>
@@ -50,7 +51,7 @@ function Features(){
                         <div className="sub-Heading">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</div>
                     </div>
                     <div className="col-lg order-lg-0">
-                        <img src="images/netflix-boys.png"  alt="" />
+                        <img src={boy}  alt="" />
                     </div>
                     
                 </div>
